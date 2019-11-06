@@ -1,8 +1,7 @@
 # my-app
-```Bash
+```
 npm create-react-app
 ```
 
-で作成したreactアプリをテストするサンプル
-テストには、create-react-appにあらかじめ同梱されている
-Jestを用いています。
+により作成したreactアプリをテストするサンプル<br />
+テストには、create-react-appにあらかじめ同梱されているJestを用いています。
