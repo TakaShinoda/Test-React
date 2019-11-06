@@ -1,7 +1,7 @@
 # my-app
 ```
-npm create-react-app
+npx create-react-app ファイル名
 ```
 
-により作成したreactアプリをテストするサンプル<br />
+reactアプリをテストするサンプル<br />
 テストには、create-react-appにあらかじめ同梱されているJestを用いています。
