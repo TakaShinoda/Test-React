@@ -1,5 +1,5 @@
 # my-app
-```
+```Bash
 npm create-react-app
 ```
 
