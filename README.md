@@ -1,7 +1,7 @@
 # my-app
 ```
-npx create-react-app ファイル名
+git clone https://github.com/TakaShinoda/my-app.git
 ```
 
 reactアプリをテストするサンプル<br />
-テストには、create-react-appにあらかじめ同梱されているJestを用いています。
+テストにはJestを用いています。
