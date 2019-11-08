@@ -1,7 +1,7 @@
 # my-app
-```
-git clone https://github.com/TakaShinoda/my-app.git
-```
+reactアプリをテストするサンプル
 
-reactアプリをテストするサンプル<br />
-テストにはJestを用いています。
+## 主な使用技術
+- React
+- Jest
+- Enzyme
