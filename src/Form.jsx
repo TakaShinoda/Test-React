@@ -18,8 +18,8 @@ class Form extends Component {
     render() {
         return (
             <div>
-                <input type='text' onChange={this.onChange} />
-                {this.state.input}
+                <input type='text' onChange={this.onChange} placeholder="名前を入力" />
+                <p>こんにちは！{this.state.input}さん</p>
             </div>
         );
     }
