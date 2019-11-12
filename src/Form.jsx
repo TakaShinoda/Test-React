@@ -4,7 +4,7 @@ class Form extends Component {
     constructor(props){
         super(props);
         this.state = {
-            input: ''
+            input: 'hoge'
         }
         this.onChange = this.onChange.bind(this);
     }
