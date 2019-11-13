@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Count from './Count';
-import Form from './Form';
+import Name from './Name';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
       <div>
         <h1>みやだいもうくん</h1>
         <Count />
-        <Form />
+        <Name />
       </div>
     );
   }
