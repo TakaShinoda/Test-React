@@ -1,4 +1,4 @@
-# my-app
+# Test-React
 reactアプリをテストするサンプル
 
 ## 主な使用技術
