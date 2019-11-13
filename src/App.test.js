@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import Count from './Count';
+import Form from './Name';
 import { shallow, mount, render } from 'enzyme';
 
-it('innerHTMLに含まれているか確認', () => {
+test('innerHTMLに含まれているか確認', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
   //<App />内のinnerHTMLに「みやだいもうくん」が含まれているかどうかをテストする
@@ -16,7 +17,7 @@ it('innerHTMLに含まれているか確認', () => {
 test('子コンポーネントが存在するか確認', () => {
   /** Appコンポーネントをshallowレンダリング */
   const wrapper = shallow(<App />);
-
   /** 各コンポーネントの数を取得し、1であればOK */
   expect(wrapper.find(Count).length).toBe(1);
+  expect(wrapper.find(Form).length).toBe(1);
 });
