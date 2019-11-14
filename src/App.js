@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Count from './Count';
 import Name from './Name';
-import './App.css';
 
 class App extends Component {
   render() {
