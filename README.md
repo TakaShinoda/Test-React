@@ -5,5 +5,3 @@ reactアプリをテストするサンプル
 - React
 - Jest
 - Enzyme
-
-## テスト内容
