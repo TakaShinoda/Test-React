@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Count from './Count';
 import Form from './Name';
+import Alert from './Alert';
 import { shallow, mount, render } from 'enzyme';
+
+
 
 test('innerHTMLに含まれているか確認', () => {
   const div = document.createElement('div');
@@ -20,4 +23,6 @@ test('子コンポーネントが存在するか確認', () => {
   /** 各コンポーネントの数を取得し、1であればOK */
   expect(wrapper.find(Count).length).toBe(1);
   expect(wrapper.find(Form).length).toBe(1);
+  expect(wrapper.find(Alert).length).toBe(1);
+  
 });
