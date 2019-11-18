@@ -13,9 +13,9 @@ class Alert extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.doAlert}>
-                    アラート
-                </button>
+                <form onSubmit={this.doAlert}>
+                    <input type="submit" value="アラート" />
+                </form>
             </div>
         );
     }
