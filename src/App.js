@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Count from './Count';
 import Name from './Name';
+import Message from './Message';
 import Alert from './Alert';
 
 class App extends Component {
@@ -10,7 +11,8 @@ class App extends Component {
         <h1>みやだいもうくん</h1>
         <Count />
         <Name />
-        <Alert message ='foo' />
+        <Message message = '宮崎へ' />
+        <Alert notification ='foo' />
       </div>
     );
   }
