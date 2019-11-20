@@ -7,7 +7,7 @@ class Alert extends Component {
     }
 
     doAlert() {
-        alert(this.props.message);
+        alert(this.props.notification);
     }
 
     render() {
