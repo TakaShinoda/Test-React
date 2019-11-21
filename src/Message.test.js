@@ -7,8 +7,9 @@ test('受け取ったpropsの値を表示できているか確認', () => {
     const wrapper = shallow(<Message message={'佐賀へ'} />);
     /** レンダリングされたテキストが'ようこそ! 佐賀へ'であればOK */
     expect(wrapper.text()).toBe('ようこそ! 佐賀へ');
-    /** props.textの値を'World'に変更 */
+    /** props.messageの値を'World'に変更 */
     wrapper.setProps({ message: 'World' });
     /** レンダリングされたテキストが'ようこそ! World'であればOK */
     expect(wrapper.text()).toBe('ようこそ! World');
 });
+  
