@@ -12,7 +12,7 @@ class App extends Component {
         <Count />
         <Name />
         <Message message = '宮崎へ' />
-        <Alert notification ='foo' />
+        <Alert />
       </div>
     );
   }

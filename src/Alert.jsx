@@ -3,11 +3,14 @@ import React, { Component } from 'react';
 class Alert extends Component {
     constructor(props){
         super(props);
+        this.state = ({
+            notification: 'アラート'
+        });
         this.doAlert = this.doAlert.bind(this);
     }
 
     doAlert() {
-        alert(this.props.notification);
+        alert(this.state.notification);
     }
 
     render() {
