@@ -4,21 +4,21 @@ class Alert extends Component {
     constructor(props){
         super(props);
         this.state = ({
-            notification: 'アラート'
+            notification: 'himuka'
         });
-        this.doAlert = this.doAlert.bind(this);
+        this.onClick = this.onClick.bind(this);
     }
 
-    doAlert() {
+    onClick() {
         alert(this.state.notification);
     }
 
     render() {
         return (
             <div>
-                <form onSubmit={this.doAlert}>
-                    <input type="submit" value="アラート" />
-                </form>
+                <button onClick={this.onClick}>
+                    アラート
+                </button>
             </div>
         );
     }
