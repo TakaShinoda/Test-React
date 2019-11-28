@@ -4,7 +4,7 @@ class Alert extends Component {
     constructor(props){
         super(props);
         this.state = ({
-            notification: 'himuka'
+            notification: 'アラートメッセージ'
         });
         this.onClick = this.onClick.bind(this);
     }
