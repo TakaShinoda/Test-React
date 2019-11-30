@@ -1,3 +1,5 @@
+![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/TakaShinoda/Test-React/package.json)
+
 # Test-React
 Reactアプリをテストするサンプル
 
@@ -5,3 +7,5 @@ Reactアプリをテストするサンプル
 - React
 - Jest
 - Enzyme
+
+
