@@ -1,3 +1,4 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/TakaShinoda/Test-React)
 # Test-React
 Reactアプリをテストするサンプル
 
@@ -5,5 +6,4 @@ Reactアプリをテストするサンプル
 - React
 - Jest
 - Enzyme
-
 
